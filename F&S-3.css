@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main{
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#logo_bar{
+    padding: 15px;
+    color: #1487FF;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#logo_bar span{
+    color: white;
+}
+
+#container{
+    text-align: center;
+}
+
+.article-box h2{
+    margin: 0px;
+    text-align: center;    
+    background-color: #f1f1f1;
+    color: #1487FF;
+    font-style: bold;
+    font-size: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.article-box p{
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    text-align: justify;
+    color: #1487FF;
+    font-style:oblique;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.article-box img{
+    border-radius: 4px;
+}
+
+#footer{
+    margin: 0px;
+    padding: 5px;
+    border-top: 3px solid #1487FF;
+    border-bottom: 3px solid #1487FF;
+    background-color: #f1f1f1;
+    color: #1487FF;
+    text-align: center;
+    font-size: 23px;
+}
+
+@media screen and (max-width: 600px){
+    #logo_bar{
+        font-size: 35px;
+    }
+
+    #caixa_filmes, #caixa_series{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #logo_bar{
+        font-size: 27px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+}

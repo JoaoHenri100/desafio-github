@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main{
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#logo_bar{
+    padding: 15px;
+    color: #1487FF;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#logo_bar span{
+    color: white;
+}
+
+#image-box1{
+    text-align: center;
+    width: 100%;
+}
+
+#image-box1 img{
+    width: 100%;
+}
+
+#article-box h2{
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: #1487FF;
+    border-top: 3px solid #1487FF;
+    border-bottom: 3px solid #1487FF;
+    font-style: bold;
+    font-size: 40px;
+    margin: 0px;
+}
+
+#article-box2{
+    padding: 5px;
+    margin: 0px;
+    background-color:black;
+}
+
+#article-box2 h2{
+    text-align: center;
+    color: #f1f1f1;
+    font-style: bold;
+    font-size: 30px;
+    border-bottom: 1px solid #1487FF;
+}
+
+#article-box2 span{
+    color: #1487FF;
+}
+
+.containerB{
+    background-image: url("../img/Space6.jpg");
+    display: flex;
+    padding: 10px;
+}
+
+#article-box3 p{
+    margin: 0px;
+    margin-left: 20px;
+    text-align:justify;
+    color: #1487FF;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+.caixa-filmes-series{
+    text-align: center;
+    background-color: black;
+}
+
+#article-box5 h2{
+    margin: 0px;
+    text-align: center;    
+    background-color: #f1f1f1;
+    color: #1487FF;
+    font-style: bold;
+    font-size: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#article-box5 img{
+    border-radius: 4px;
+}
+
+#article-box6 h2{
+    margin: 0px;
+    text-align: center;    
+    background-color: #f1f1f1;
+    color: #1487FF;
+    font-style: bold;
+    font-size: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#article-box6 img{
+    border-radius: 4px;
+}
+
+#footer{
+    margin: 0px;
+    padding: 5px;
+    border-top: 3px solid #1487FF;
+    border-bottom: 3px solid #1487FF;
+    background-color: #f1f1f1;
+    color: #1487FF;
+    text-align: center;
+    font-size: 23px;
+}
+
+@media screen and (max-width: 600px){
+    #logo_bar{
+        font-size: 35px;
+    }
+
+    .caixa-filmes-series{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #logo_bar{
+        font-size: 27px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+}

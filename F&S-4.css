@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main{
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#logo_bar{
+    padding: 15px;
+    color: #1487FF;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#logo_bar span{
+    color: white;
+}
+
+#image-box1{
+    text-align: center;
+    background-color: black;
+}
+
+#image-box1 img{
+    width: 100%;
+}
+
+.container{
+    background-image: url("../img/Space6.jpg");
+}
+
+#article-box1 h2{
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: black;
+    border-bottom: 3px solid #1487FF;
+    border-top: 3px solid #1487FF;
+    font-style: bold;
+    font-size: 40px;
+    margin: 0px;
+}
+
+#article-box1 span{
+    color: #1487FF;
+}
+
+#article-box2 p{
+    margin: 0px;
+    padding: 30px;
+    text-align:justify;
+    color: #1487FF;
+    font-size: 25px;
+    font-style: oblique;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #1487FF;
+}
+
+#article-box3{
+    padding: 20px;
+    border-bottom: 1px solid #1487FF;
+}
+
+#article-box3 span{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#article-box3 p{
+    margin: 0px;
+    padding: 10px;
+    text-align:justify;
+    color: #1487FF;
+    font-size: 25px;
+    font-style: oblique;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#article-box4 p{
+    margin: 0px;
+    padding: 10px;
+    text-align:justify;
+    color: #1487FF;
+    font-size: 25px;
+    font-style: oblique;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#article-box5{
+    margin: 0px;
+    padding: 30px;
+    text-align: end;
+    color: #1487FF;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer{
+    margin: 0px;
+    padding: 5px;
+    border-top: 3px solid #1487FF;
+    border-bottom: 3px solid #1487FF;
+    background-color: white;
+    color: #1487FF;
+    text-align: center;
+    font-size: 23px;
+}
+
+@media screen and (max-width: 600px){
+    #logo_bar{
+        font-size: 35px;
+    }
+
+    #caixa_filmes, #caixa_series{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #logo_bar{
+        font-size: 27px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Filmes & Séries</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="widht:device-widht, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="css/F&S-3.css">
+        <link rel="stylesheet" type="text/css" href="css/F&S_menu.css">
+        <link rel="stylesheet" href="css/carrossel.css">
+        <link rel="icon" href="img/Favicon.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/menu.js"></script>
+    </head>
+
+    <body>
+        <div id="main">
+
+            <div id="logo_bar">Filmes <span>&</span> Séries</div>
+
+            <div class="menu" id="my_menu">
+
+                <a href="Index.html">HOME</a>
+    
+                <div class="dropdown">
+                    <button class="btt_drop">
+                        <a href="Filmes.html">FILMES</a>
+                        <i class="fa fa-caret-down" style="padding-left: 5px;" id="caret_down"></i>
+                    </button>
+    
+                    <div class="content">
+                        <a href=""> Gêneros</a>
+                        <a href=""> Mais procurados</a>
+                        <a href=""> Por avaliação</a>
+                    </div>
+                </div>
+
+                <div class="dropdown active">
+                    <button class="btt_drop">
+                        <a href="">SÉRIES</a>
+                        <i class="fa fa-caret-down" style="padding-left: 5px;" id="caret_down"></i>
+                    </button>
+    
+                    <div class="content">
+                        <a href=""> Gêneros</a>
+                        <a href=""> Mais procurados</a>
+                        <a href=""> Por avaliação</a>
+                    </div>
+                </div>
+
+                <a href="Contato.html">CONTATO</a>
+                <a href="#" onclick="show_menu()" class="menu_btt">
+                    <i class="material-icons"> menu </i>
+                </a>
+            </div>
+
+            <div class="carrossel">
+
+                <div class="wall">
+                    <div class="n_text"> 1 / 4 </div>
+                    <img src="img/Invencivel.jpg">
+                    <div class="i_text"> Invencível </div>
+                </div>
+    
+                <div class="wall">
+                    <div class="n_text"> 2 / 4 </div>
+                    <img src="img/Loki.jpg">
+                    <div class="i_text"> Loki </div>
+                </div>
+    
+                <div class="wall">
+                    <div class="n_text"> 3 / 4 </div>
+                    <img src="img/Wanda-Vision.jpg">
+                    <div class="i_text"> Wanda-Vision </div>
+                </div>
+
+                <div class="wall">
+                    <div class="n_text"> 4 / 4 </div>
+                    <img src="img/The Wlking Dead.jpg">
+                    <div class="i_text"> The Walking Dead </div>
+                </div>
+    
+                <a class="prev" onclick="plus_walls(-1)"> &#10094; </a>
+                <a class="next" onclick="plus_walls(1)"> &#10095; </a>
+    
+            </div>
+    
+            <div class="dots_box">
+                <span class="dot" onclick="current_walls(1)" ></span>
+                <span class="dot" onclick="current_walls(2)" ></span>
+                <span class="dot" onclick="current_walls(3)" ></span>
+                <span class="dot" onclick="current_walls(4)" ></span>
+            </div>
+    
+            <script src="js/carrossel.js"></script>
+
+            <div id="container">
+                <div class="article-box">
+                    <h2>EM LANÇAMENTO</h2>
+                    <img src="img/Ponto cego.png"/>
+                    <img src="img/Last Kingdom.png"/>
+                    <img src="img/TWD.png"/>
+                    <img src="img/Peaky Blinders.png"/>
+                    <img src="img/ST.png"/>
+                    <img src="img/Elite.png"/>
+                </div>
+
+                <div class="article-box">
+                    <h2>GÊNEROS</h2>
+                    <p>AÇÃO</p>
+                    <img src="img/Falcao.png">
+                    <img src="img/Invencivel.png">
+                    <img src="img/Loki.png">
+                    <img src="img/Demolidor.png">
+                    <img src="img/The-Boys.png">
+                    <img src="img/Lupin.png">
+                </div>
+
+                <div class="article-box">
+                    <p>AVENTURA</p>
+                    <img src="img/The-mandalorian.png">
+                    <img src="img/Arrow.png">
+                    <img src="img/Flash.png">
+                    <img src="img/The Witcher.png">
+                    <img src="img/Black Sails.png">
+                    <img src="img/Vikings.png">
+                </div>
+
+                <div class="article-box">
+                    <p>ANIMAÇÃO</p>
+                    <img src="img/Castlevania.png">
+                    <img src="img/Bojack Horseman.png">
+                    <img src="img/Big mouth.png">
+                    <img src="img/Desencanto.png">
+                    <img src="img/Gravity_falls.png">
+                    <img src="img/Rick and Morty.png">
+                </div>
+
+            </div>
+
+            <div id="footer">
+                Desenvolvido por João H. G. Silva.
+            </div>
+        </div>
+    </body>
+</html>

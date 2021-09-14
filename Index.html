@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Filmes & Séries</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="widht:device-widht, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="css/F&S-1.css">
+        <link rel="stylesheet" type="text/css" href="css/F&S_menu.css">
+        <link rel="stylesheet" href="css/carrossel.css">
+        <link rel="icon" href="img/Favicon.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/menu.js"></script>
+    </head>
+
+    <body>
+        <div id="main">
+            
+            <div id="logo_bar">Filmes <span>&</span> Séries</div>
+
+            <div class="menu" id="my_menu">
+
+                <a href="" class="active">HOME</a>
+    
+                <div class="dropdown">
+                    <button class="btt_drop">
+                        <a href="Filmes.html">FILMES</a>
+                        <i class="fa fa-caret-down" style="padding-left: 5px;" id="caret_down"></i>
+                    </button>
+    
+                    <div class="content">
+                        <a href=""> Gêneros</a>
+                        <a href=""> Mais procurados</a>
+                        <a href=""> Por avaliação</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btt_drop">
+                        <a href="Series.html">SÉRIES</a>
+                        <i class="fa fa-caret-down" style="padding-left: 5px;" id="caret_down"></i>
+                    </button>
+    
+                    <div class="content">
+                        <a href=""> Gêneros</a>
+                        <a href=""> Mais procurados</a>
+                        <a href=""> Por avaliação</a>
+                    </div>
+                </div>
+
+                <a href="Contato.html">CONTATO</a>
+                <a href="#" onclick="show_menu()" class="menu_btt">
+                    <i class="material-icons"> menu </i>
+                </a>
+            </div>
+
+            <div class="carrossel">
+
+                <div class="wall">
+                    <div class="n_text"> 1 / 4 </div>
+                    <img src="img/Star Wars.jpg">
+                    <div class="i_text"> Star Wars </div>
+                </div>
+    
+                <div class="wall">
+                    <div class="n_text"> 2 / 4 </div>
+                    <img src="img/Black Widow.jpg">
+                    <div class="i_text"> Viúva Negra </div>
+                </div>
+    
+                <div class="wall">
+                    <div class="n_text"> 3 / 4 </div>
+                    <img src="img/Doctor Strange.jpg">
+                    <div class="i_text"> Doutor Estranho </div>
+                </div>
+
+                <div class="wall">
+                    <div class="n_text"> 4 / 4 </div>
+                    <img src="img/Minions.jpg">
+                    <div class="i_text"> Minions </div>
+                </div>
+    
+                <a class="prev" onclick="plus_walls(-1)"> &#10094; </a>
+                <a class="next" onclick="plus_walls(1)"> &#10095; </a>
+    
+            </div>
+    
+            <div class="dots_box">
+                <span class="dot" onclick="current_walls(1)" ></span>
+                <span class="dot" onclick="current_walls(2)" ></span>
+                <span class="dot" onclick="current_walls(3)" ></span>
+                <span class="dot" onclick="current_walls(4)" ></span>
+            </div>
+    
+            <script src="js/carrossel.js"></script>
+
+            <div class="caixa-filmes-series">
+                <div id="article-box5">
+                    <h2>FILMES - PRÓXIMOS LANÇAMENTOS</h2>
+                    <img src="img/Godzilla vs Kong.jpg"/>
+                    <img src="img/Shang-chi.png"/>
+                    <img src="img/batmam.png"/>
+                    <img src="img/black-widow.png"/>
+                    <img src="img/Venom2.png"/>
+                    <img src="img/Morbius.png"/>
+                </div>
+            </div>
+
+            <div class="caixa-filmes-séries">
+                <div id="article-box6">
+                    <h2>SÉRIES - EM LANÇAMENTOS</h2>
+                    <img src="img/Ponto cego.png">
+                    <img src="img/Last Kingdom.png">
+                    <img src="img/Peaky Blinders.png">
+                    <img src="img/TWD.png">
+                    <img src="img/Elite.png">
+                    <img src="img/ST.png">
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div id="article-box">
+                    <h2>F & S</h2>
+                </div>
+    
+                <div id="article-box2">
+                    <h2>BEM VINDO À PÁGINA INICIAL DO F<span>&</span>S .</h2>
+                </div>
+
+                <div class="containerB">
+                    <div id="article-box3">
+                        <p>
+                            -ASSISTA FILMES E SÉRIES QUANDO VOCÊ QUISER.
+                        </p>
+                
+                        <p>
+                            -CLÁSSICOS E LANÇAMENTOS RECENTES.
+                        </p>
+                
+                        <p>
+                            -DIVERSOS GÊNEROS PARA VOCÊ SE DIVERTIR.
+                        </p>
+    
+                        <p>
+                            -ESTE É UM CANAL EXCLUSIVO DE FILMES E SÉRIES DISPONÍVEL PARA TELEVISÃO, 
+                            COMPUTADOR, CELULAR, E TABLET.
+                        </p>
+
+                        <p>
+                            -TEMOS PLANOS PARA ASSISTIR EM ATÉ 4 TELAS, ENTRE OS APARELHOS CITADOS.
+                        </p>
+    
+                        <p>
+                            -A EMPRESA FOI FUNDADA DIA 16/06/2021 COM O INTUÍTO DE LEVAR OS MELHORES
+                            FILMES E SÉRIES ATÉ AS PESSOAS, SEM PRECISAR IR AO CINEMA.
+                        </p>   
+    
+                        <p>
+                            -COM TUDO ISSO, HOJE A EMPRESA PRODUZ CENTENAS DE HORAS DE PROGRAMÇÃO ORIGINAL.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="footer">
+                Desenvolvido por João H. G. Silva.
+            </div>
+
+        </div>
+    </body>
+</html>
